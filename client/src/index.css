@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color:#fff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+}
+
+/* navbar starts here */
+.navbar-bg{
+  background-color: #fff;
+  padding: 2rem 0;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.navbar li{
+  padding: 0 2rem;
+}
+
+.navbar li a{
+  font-size: 1.7rem;
+  font-weight: lighter;
+  position: relative;
+}
+
+.navbar li a:hover{
+  color: #6610f2 !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183,171,255,0.5);
+}
+
+.btn-style{
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: #fff;
+  background-color: #6610f2;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+.btn-style a{
+  color: #fff;
+}
+
+.btn-style:first-child{
+  margin-right: 2rem;
+}
+
+.btn-style:hover{
+  border: 0.1rem solid #6610f2;
+  background-color: transparent;
+  color: #6610f2;
+  box-shadow: 0 0.2rem 0.5rem rgba(183,171,255,0.5);
+}
+
+.btn-style:hover a{
+  color: #6610f2;
+}
+
+.btn-style-border{
+  border: 0.1rem solid #6610f2;
+  background-color: transparent;
+  color: #6610f2;
+  box-shadow: 0 0.2rem 0.5rem rgba(183,171,255,0.5);
+}
+.btn-style-border a{
+  color: #6610f2;
+}
+
+.btn-style-border:hover{
+  color: #fff;
+  background-color: #6610f2;
+  text-transform: capitalize;
+}
+
+.btn-style-border:hover a{
+  color: #fff;
+}
+
+/* 
+navbar ends here */
+
+/* signup section starts */
+
+.input-field{
+  margin-bottom: 2rem;
+}
+
+.form-title{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  word-spacing: 0rem;
+}
+.register-form{
+  margin-top: 8rem;
+}
+
+.signup-leftside form .form-control{
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 4rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+.signup-rightside{
+  margin-bottom:5rem;
+}
+
+.signup-rightside figure{
+  margin-top:11.4rem;
+}
+.signup-rightside a{
+  color:#333333;
+  font-size: 1.5rem;
+}
+.signup-rightside a:hover{
+  color: #0d6efd;
+}
+/* signup section ends*/
+
+/* login section starts */
+
+.login-form{
+  margin: 13rem 0 5rem 0;
+}
+
+.login-icons i{
+  font-size: 4rem;
+}
+
+.login-icons #google{
+  color: rgb(207, 9, 9);
+}
+.login-icons #facebook{
+  color:#0d6efd;
+}
+
+/* login section ends */
+
+
+/* constact us section starts */
+
+.main-hero-para{
+  font-size: 1.6rem;
+  color: grey;
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 100%;
+}
+.main-heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+}
+
+.contactus-section{
+  margin: 5rem 0;
+}
+
+.contact-leftside img{
+  min-width: 80%;
+  min-height: 33rem;
+  height: auto;
+}
+
+.contact-input-field{
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.contact-rightside form .form-control{
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input{
+  width: 2em;
+  height: 2em;
+}
+
+.form-checkbox-style{
+  margin: 6rem 0;
+}
+
+.contact-rightside form .main-hero-para{
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 75%;
+  padding: 0 2rem;
+}
+
+/* constact us section ends */
+
+/* home page starts */
+
+.home-page{
+  min-height: 83vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page .main-heading{
+  margin:2rem 0;
+}
+
+.home-page .main-hero-para2{
+  font-size: 2.5rem;
+  color: grey;
+  /* margin: 3rem 0 5rem 0; */
+  font-weight: lighter;
+}
+
+/* home page ends */
+
+/* about page starts*/
+
+.about-section{
+  margin-top:3rem;
+}
+
+.about-section .profile-work a{
+  color: grey;
+}
+
+.about-section img{
+  min-width: 80%;
+  max-height: 20rem;
+  height: auto;
+}
+.about-section .profile-head  {
+  margin-top:2.8rem;
+}
+.editbtn{
+  margin-top:2rem;
+}
+.profile-head .main-heading {
+  margin: 0;
+}
+.profile-head .main-hero-para{
+  margin: 0;
+}
+.profile-details{
+  margin-top: 3rem;
+}
+
+.profile-details strong{
+  font-size: 1.7rem;
+}
+
+.profile-details .main-hero-para{
+  margin: 0;
+  font-size: 1.7rem;
+}
+
+/* about page ends*/
+
+* not found section starts */
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 920px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.notfound .notfound-404 {
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: "Maven Pro", sans-serif;
+  color: #ececec;
+  font-weight: 900;
+  font-size: 276px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound h2 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 46px;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.notfound p {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.notfound a {
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #189cf0;
+  display: inline-block;
+  padding: 16px 38px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 400;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  background-color: #fff;
+  border-color: #189cf0;
+  color: #189cf0;
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+    font-size: 162px;
+  }
+  .notfound h2 {
+    font-size: 26px;
+  }
+}
+
+
+/* not found section ends */
+
+
+/* media queries */
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}
