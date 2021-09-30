@@ -7,9 +7,9 @@ const authenticate = require('../middleware/authenticate.js');
 require('../db/conn.js');
 const User = require('../model/userSchema.js');
 
-router.get('/', (req,res) => {
-    res.send("hello aliens from server")  
-});
+// router.get('/', (req,res) => {
+//     res.send("hello aliens from server")  
+// });
 
 
 // registration route
